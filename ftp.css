@@ -1,0 +1,80 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link .btn .btn-primary {
+    color: #fff;
+     background-color: #8e8989; 
+}
+/* saut de ligne*/
+.brStyle {
+	margin-top:20px;
+}
+
+/* Gandalff*/
+
+/* Texte*/
+.reward {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10%;
+  color: black;
+  font-size: 15px;
+  padding: 0px 100px;
+  text-align: center; 
+}
+
+.red{
+  color: #ff6600; 
+}
+
+.gandalf {
+  color: white;
+  font-size: 40px;
+  padding: 90px 60px;
+  text-align: center; 
+}
+
+
+.sousContener {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 6%;
+}
+
+
+/*image*/
+
+    /* Image non survolée*/
+.opacity {
+  opacity: 0.4;
+  height: 350px;
+  width: 100%;
+  position:relative;
+}
+
+    /* Image survolée*/
+.opacity:hover {
+  opacity: 1;
+}
+.opacity:hover #sousContener{visibility:hidden} 
+.opacity:hover .gandalf{ 
+    visibility: visible;
+    font-size: 25px;
+    position:absolute; 
+    top: 220%;
+    left: 40px;
+} 
+
+/*-- Paragraphe The Ring */
+/* Image ronde*/
+.img-circle {
+	border-radius:55px;
+	}
+
+/*-- Paragraphe The Ring */
+.sizeFooter{
+	max-height: 150px;
+}
+/* Lien html non soulgné*/
+.menu-a, .menu-a:visited, .menu-a:hover, .menu-a:focus, .menu-a:active  { 
+	color:#FFFFFF; 
+	text-decoration:none; 
+}
